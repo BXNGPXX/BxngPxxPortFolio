@@ -1,7 +1,5 @@
 ## Hello World
-
-First Project !!
-
 ```bash
 [⚠️] BXNG-PXX Port folio
+[✨] Using Next js and Tailwind
 ```
