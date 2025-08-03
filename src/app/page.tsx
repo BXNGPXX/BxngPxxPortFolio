@@ -1,22 +1,9 @@
-import NavItem from "./components/nav_item"
-
-function page () {
+export default function WelcomePage () {
   return (
-
-    <>
-      <nav className="bg-black/50 min-h-fit flex justify-between px-5 py-2 sm:h-10 items-center" >
-
-        <a href="" className="text-white md:text-lg">LOGO</a>
-
-        <div className="">
-          <NavItem title="Home" />
-          <NavItem title="Contact" />
-        </div>
-        
-      </nav>
-    </>
-
+    <div className="mx-3">
+      <h1>Welcome</h1>
+      <h2>to my website</h2>
+    </div>
+    
   )
 }
-
-export default page
